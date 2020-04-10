@@ -50,7 +50,7 @@ p {
   .header p {
     line-height: 28px;
     color: #98a6bd; }
-    @media screen and (min-width: 1024px) {
+    @media screen and (min-width: 770px) {
       .header p span:after {
         content: "\a";
         white-space: pre; } }
@@ -156,12 +156,9 @@ body {
       @media screen and (max-height: 854px) {
         body .flex-container .container {
           margin-top: 80px; } }
-      @media screen and (min-width: 1024px) {
+      @media screen and (min-width: 854px) {
         body .flex-container .container {
-          width: 45%; } }
-      @media screen and (min-width: 2000px) {
-        body .flex-container .container {
-          width: 30%; } }
+          max-width: 678px; } }
     @media screen and (min-width: 768px) {
       body .flex-container .inner-flex {
         display: flex;
