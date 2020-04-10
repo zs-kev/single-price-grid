@@ -100,7 +100,28 @@ button {
   font-weight: 700;
   -webkit-box-shadow: 0px 10px 10px 5px #27a5a3;
   -moz-box-shadow: 0px 10px 10px 5px #27a5a3;
-  box-shadow: 0px 10px 10px 5px #27a5a3; }
+  box-shadow: 0px 10px 10px 5px #27a5a3;
+  position: relative; }
+  button svg {
+    top: 10px;
+    transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1), opacity 0.4s cubic-bezier(0.86, 0, 0.07, 1);
+    margin-left: 15px;
+    opacity: 0;
+    position: absolute;
+    transform: translateX(75%) scaleX(0.1);
+    width: 30px;
+    height: 30px;
+    transform-origin: center; }
+  button:hover {
+    cursor: pointer; }
+    button:hover svg {
+      opacity: 1;
+      transform: translateX(30px) scaleX(1); }
+    button:hover span {
+      transform: translateX(-30px); }
+  button span {
+    display: inline-block;
+    transition: transform 0.5s cubic-bezier(0.86, 0, 0.07, 1); }
 
 li {
   list-style: none;
