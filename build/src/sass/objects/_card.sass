@@ -1,0 +1,41 @@
+.header
+    padding: 30px 30px
+    background-color: $white
+    h1
+        padding-bottom: 25px
+    h2
+        color: $bright-yellow
+        font-size: 17px
+        padding-bottom: 10px
+    p
+        line-height: 28px
+        color: $grayish-blue
+        @media screen and ( min-width: 1024px )
+            span
+                &:after
+                    content: "\A"
+                    white-space: pre
+            
+
+.subscription
+    padding: 30px 30px
+    background-color: $cyan
+    @media screen and ( min-width: 768px )  
+        width: 100%
+    .price
+        padding-bottom: 8px
+        color: $dark-grey
+        span
+            font-size: 35px
+            padding-right: 5px
+            color: $light-grey
+            vertical-align: sub
+    .price-text
+        padding-bottom: 30px
+
+
+.why-us
+    padding: 30px 30px
+    background-color: hsla(179, 62%, 43%, 0.85)
+    @media screen and ( min-width: 768px )  
+        width: 100%
