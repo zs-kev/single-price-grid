@@ -88,7 +88,11 @@ footer {
     color: #98a6bd;
     line-height: 30px; }
     footer p a {
-      color: #819aa7; }
+      color: #819aa7;
+      text-decoration: none;
+      font-weight: 700; }
+      footer p a:hover {
+        color: #98a6bd; }
 
 button {
   background-color: #c0df34;
